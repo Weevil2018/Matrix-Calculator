@@ -608,8 +608,7 @@ void print(ARRAY* out)
     }
 }
 
-void input(ARRAY *p)
-{
+void input(ARRAY *p){
     int i,j,k;
     do
     {
@@ -667,8 +666,8 @@ void intro()
      printf("||       ||\\\\                    | |       '--'       | |             | |       '--'       | |                ||\n");
      printf("||       || \\\\                   | |                  | |             | |                  | |                ||\n");
      printf("||       ||  \\\\                  | |                  | |             | |                  | |                ||\n");
-     printf("||       ||   \\\\       __        | |                  | |      _      | |                  | |                ||\n");
-     printf("||       ||    \\\\     |__|       | |                  | |     |_|     | |                  | |                ||\n");
+     printf("||       ||   \\\\       __        | |                  | |     __      | |                  | |                ||\n");
+     printf("||       ||    \\\\     |__|       | |                  | |    |__|     | |                  | |                ||\n");
      printf("||                                                                                                            ||\n");
      printf("||                                                                                                            ||\n");
      printf("||       Real                    Matrix                               Manipulator                             ||\n");
